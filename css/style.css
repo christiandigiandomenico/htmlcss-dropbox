@@ -52,7 +52,7 @@
 /* Main section */
 
 .main-container {
-    max-width: 670px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -110,6 +110,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 80px;
 }
 
 .business-plan .section-block {
@@ -122,4 +123,83 @@
     background-color: chocolate;
 }
 
+/* Sezione Designit */
+
+.designit {
+    display: flex;
+    width: 100%;
+
+    /* test */
+    height: 365px;
+}
+
+.designit .square-section-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.designit .square-section-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divisotre {
+    width: calc(100% / 3);
+}
+
+.designit .square-space {
+    width: calc(100% / 2);
+    /* test */
+    border: 2px dashed black;
+    background-color: cyan;
+}
+
+.designit .centrale-space {
+    flex-grow: 1;
+    min-width: 150px;
+
+    /* test */
+    border: 2px dashed black;
+    background-color: darkcyan;
+}
+
+/* Fine sezione designit*/
+
+/* Free-trial*/
+
+.free-trial {
+    margin-bottom: 90px;
+
+    /* test */
+    height: 205px;
+    background-color: darkolivegreen;
+    border: 2px dashed black;
+}
+
+/* Fine free-trial */
+
+/* FAQ */
+
+/* Fine FAQ */
+
+.faq {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 85px;
+
+    /* test */
+    height: 240px;
+    border: 2px dashed black;
+    background-color: firebrick;
+}
+
 /* Fine main section */
+
+/* Footer */
+
+.footer-end {
+    height: 325px;
+    background-color: black;
+}
+
+/* Fine footer */
