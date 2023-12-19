@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation-bar {
+    height: 46px;
+
+    /* test */
+    border: 2px dashed black;
+    background-color: blueviolet;
+}
+
+.jumbotron {
+    height: 421px;
+
+    /* test */
+    border: 2px dashed black;
+    background-color: aquamarine;
+}
+
+.main-container {
+    max-width: 670px;
+    margin: auto;
+}
+
+.payment-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    margin-top: 50px;
+}
+
+.payment-plan .payment {
+    width: calc(100% / 3 - 30px);
+
+    /* test */
+    border: 2px dashed black;
+    background-color: brown;
+    height: 543px;
+}
+
+.enterprise {
+    margin-top: 25px;
+
+    /* Test */
+    height: 147px;
+    border: 2px dashed black;
+    background-color: greenyellow;
+}
+
+.find-partner {
+    margin-top: 85px;
+    display: flex;
+}
+
+.find-partner .picture-left {
+
+    /* test */
+    width: 340px;
+    height: 290px;
+    border: 2px dashed black;
+    background-color: blue;
+}
+
+.find-partner .written-content {
+    flex-grow: 1;
+
+    /* test */
+    height: 290px;
+    border: 2px dashed black;
+    background-color: darkgreen;
+}
+
+.business-plan {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.business-plan .section-block {
+    width: calc(100% / 3 - 25px);
+    margin-top: 40px;
+
+    /* Test */
+    height: 270px;
+    border: 2px dashed black;
+    background-color: chocolate;
+}
