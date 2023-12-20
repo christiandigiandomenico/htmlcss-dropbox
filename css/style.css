@@ -61,11 +61,7 @@ body {
 /* Jumbotron */
 
 .jumbotron {
-    height: 740px;
-
-    /* test */
-    border: 2px dashed black;
-    background-color: aquamarine;
+    background-color: #b4d0e7;
 }
 
 .jumbo-container {
@@ -75,14 +71,49 @@ body {
 
 .jumbo-container h1 {
     font-size: 58px;
+    margin-bottom: 20px;
 }
 
-.jumbo-container .text-left {
-    width: 40%;
+.content-container {
+    display: flex;
 }
 
-.jumbo-container .image-right {
-    width: 60%;
+.text-left {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 30%;
+    padding-top: 70px;
+}
+
+.image-right {
+    width: 70%;
+}
+
+.image-right img {
+    width: 100%;
+}
+
+.text-left a {
+    color: white;
+    background-color: #0061ff;
+    padding: 12px 20px;
+    text-decoration: none;
+    width: 240px;
+}
+
+.text-left p:nth-of-type(2) {
+    margin-bottom: 50px;
+}
+
+.text-left .fa {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.image-right img {
+    position: relative;
+    bottom: -70px;
 }
 
 /* Fine Jumbotron */
@@ -92,6 +123,7 @@ body {
 .main-container {
     max-width: 1000px;
     margin: auto;
+    margin-top: 80px;
 }
 
 /* Business plan */
