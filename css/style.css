@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Navbar */
 
 .navigation-bar {
-    height: 46px;
-
-    /* test */
-    border: 2px dashed black;
-    background-color: blueviolet;
+    height: 80px;
 }
 
 .navigation-bar {
@@ -21,18 +21,39 @@
 
 .navigation-left {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
 }
 
 .navigation-right {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
 }
 
 .nav-link {
     padding: 10px;
+}
 
-    /* test */
-    border: 2px dashed black;
-    background-color: bisque;
+.image {
+    height: 28px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.login-button a {
+    padding: 8px 20px;
+    color: white;
+    background-color: #0061ff;
 }
 
 /* Fine navbar */
@@ -40,11 +61,28 @@
 /* Jumbotron */
 
 .jumbotron {
-    height: 421px;
+    height: 740px;
 
     /* test */
     border: 2px dashed black;
     background-color: aquamarine;
+}
+
+.jumbo-container {
+    width: 1200px;
+    margin: auto;
+}
+
+.jumbo-container h1 {
+    font-size: 58px;
+}
+
+.jumbo-container .text-left {
+    width: 40%;
+}
+
+.jumbo-container .image-right {
+    width: 60%;
 }
 
 /* Fine Jumbotron */
@@ -56,6 +94,8 @@
     margin: auto;
 }
 
+/* Business plan */
+
 .payment-plan {
     display: flex;
     justify-content: space-between;
@@ -65,13 +105,17 @@
 }
 
 .payment-plan .payment {
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 50px / 3 * 2);
 
     /* test */
     border: 2px dashed black;
     background-color: brown;
     height: 543px;
 }
+
+/* Fine business plan */
+
+/* Enterprise */
 
 .enterprise {
     margin-top: 25px;
@@ -82,6 +126,10 @@
     background-color: greenyellow;
 }
 
+/* Fine enterprise */
+
+/* Fine partner */
+
 .find-partner {
     margin-top: 85px;
     display: flex;
@@ -90,8 +138,8 @@
 .find-partner .picture-left {
 
     /* test */
-    width: 340px;
-    height: 290px;
+    width: 60%;
+    height: 450px;
     border: 2px dashed black;
     background-color: blue;
 }
@@ -100,10 +148,12 @@
     flex-grow: 1;
 
     /* test */
-    height: 290px;
+    height: 450px;
     border: 2px dashed black;
     background-color: darkgreen;
 }
+
+/* Fine find partner */
 
 .business-plan {
     margin-top: 100px;
@@ -114,7 +164,7 @@
 }
 
 .business-plan .section-block {
-    width: calc(100% / 3 - 25px);
+    width: calc(100% / 3 - 50px / 3 * 2);
     margin-top: 40px;
 
     /* Test */
