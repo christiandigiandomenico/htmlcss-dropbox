@@ -123,7 +123,34 @@ body {
 .main-container {
     max-width: 1000px;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 100px;
+}
+
+section .business-titles {
+    font-size: 32px;
+    margin-bottom: 70px;
+}
+
+.radio-selector {
+    display: flex;
+    align-items: center;
+}
+
+.button1 {
+    margin-right: 35px;
+}
+
+.button1,
+.button2 {
+    font-size: 14px;
+}
+
+.radio-selector input {
+    margin-right: 5px;
+}
+
+section label {
+    font-size: 14px;
 }
 
 /* Business plan */
@@ -134,15 +161,100 @@ body {
     align-items: stretch;
 
     margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.fa-solid.fa-user,
+.fa-solid.fa-users,
+.fa-solid.fa-building {
+    margin-right: 5px;
+}
+
+.internal-text {
+    font-size: 14px;
+}
+
+.internal-text h3 {
+    font-size: 22px;
+}
+
+.internal-text .plan-price {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.internal-text p:first-of-type {
+    margin-bottom: 40px;
+}
+
+.internal-text p:nth-of-type(2),
+.internal-text p:nth-of-type(3),
+.internal-text p:nth-of-type(4) {
+    margin-bottom: 15px;
+}
+
+.free-trial-button {
+    background-color: #0061ff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.free-trial30 {
+    color: white;
+    text-decoration: none;
+}
+
+.divisore-linea {
+    height: 50px;
+    width: 50px;
+    border-bottom: 1px solid #dddddf;
+    margin-bottom: 50px;
+}
+
+.internal-text p:nth-of-type(6) {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.internal-text p:nth-of-type(7),
+.internal-text p:nth-of-type(8),
+.internal-text p:nth-of-type(9),
+.internal-text p:nth-of-type(10) {
+    margin-bottom: 15px;
+}
+
+.fa-solid.fa-check {
+    color: #0061ff;
+}
+
+/* Fine singola colonna */
 
 .payment-plan .payment {
     width: calc(100% / 3 - 50px / 3 * 2);
 
     /* test */
-    border: 2px dashed black;
-    background-color: brown;
-    height: 543px;
+    border: 1px solid #dddddf;
+}
+
+.top-corner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    font-size: 14px;
+
+    border-bottom: 1px solid #dddddf;
+}
+
+.internal-text {
+    padding: 30px;
+}
+
+.internal-text h3 {
+    margin-bottom: 25px;
 }
 
 /* Fine business plan */
@@ -151,38 +263,77 @@ body {
 
 .enterprise {
     margin-top: 25px;
+    border: 1px solid #dddddf;
+}
 
-    /* Test */
-    height: 147px;
-    border: 2px dashed black;
-    background-color: greenyellow;
+.enterprise-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-left-enterprise,
+.right-button-enterprise {
+    padding: 35px;
+}
+
+.text-left-enterprise h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.text-left-enterprise p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.text-left-enterprise {
+    width: 70%;
+}
+
+.enterprise .right-button-enterprise a {
+    background-color: #0061ff;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 300;
 }
 
 /* Fine enterprise */
 
-/* Fine partner */
+/* Find partner */
 
 .find-partner {
     margin-top: 85px;
     display: flex;
 }
 
-.find-partner .picture-left {
-
-    /* test */
-    width: 60%;
-    height: 450px;
-    border: 2px dashed black;
-    background-color: blue;
+.find-partner .picture-left img {
+    object-fit: cover;
+    width: 625px;
+    height: 535px;
 }
 
 .find-partner .written-content {
     flex-grow: 1;
+    padding: 40px;
+    font-size: 14px;
+}
 
-    /* test */
-    height: 450px;
-    border: 2px dashed black;
-    background-color: darkgreen;
+.written-content h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.written-content p {
+    margin-bottom: 40px;
+}
+
+.written-content .find-a-partner a {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 /* Fine find partner */
