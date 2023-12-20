@@ -338,8 +338,16 @@ section label {
 
 /* Fine find partner */
 
-.business-plan {
+/* Esegui operazioni */
+
+section .second-title {
+    font-size: 32px;
     margin-top: 100px;
+    text-align: center;
+}
+
+.business-plan {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -349,12 +357,24 @@ section label {
 .business-plan .section-block {
     width: calc(100% / 3 - 50px / 3 * 2);
     margin-top: 40px;
-
-    /* Test */
-    height: 270px;
-    border: 2px dashed black;
-    background-color: chocolate;
 }
+
+.business-plan img {
+    width: 100%;
+}
+
+.business-plan .section-block h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.business-plan .section-block p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Fine esegui operazioni */
 
 /* Sezione Designit */
 
