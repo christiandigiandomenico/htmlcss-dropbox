@@ -11,7 +11,7 @@ body {
 /* Navbar */
 
 .navigation-bar {
-    height: 80px;
+    padding: 30px;
     background-color: white;
     width: 100%;
 }
@@ -61,6 +61,19 @@ body {
     background-color: #0061ff;
 }
 
+.login-button a:hover {
+    background-color: #468dff;
+}
+
+.nav-link.first:hover,
+.nav-link.second:hover,
+.nav-link.third:hover,
+.nav-link.fourth:hover,
+.nav-link.fifth:hover,
+.nav-link.sixth:hover {
+    border-bottom: 3px solid black;
+}
+
 /* Fine navbar */
 
 /* Jumbotron */
@@ -106,6 +119,10 @@ body {
     padding: 12px 20px;
     text-decoration: none;
     width: 240px;
+}
+
+.text-left a:hover {
+    background-color: #468dff;
 }
 
 .text-left p:nth-of-type(2) {
@@ -209,6 +226,10 @@ section label {
     margin-top: 40px;
 }
 
+.free-trial-button:hover {
+    background-color: #468dff;
+}
+
 .free-trial30 {
     color: white;
     text-decoration: none;
@@ -307,6 +328,10 @@ section label {
     padding: 10px 20px;
     color: white;
     font-weight: 300;
+}
+
+.enterprise .right-button-enterprise a:hover {
+    background-color: #468dff;
 }
 
 /* Fine enterprise */
@@ -579,11 +604,33 @@ section .find-more {
     justify-content: space-between;
     align-items: center;
     padding-right: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: bold;
     font-size: 14px;
+}
+
+.faq-inner .black-interline {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.faq-inside {
+    display: flex;
+}
+
+.faq-inner .hidden-faq {
+    display: none;
+    padding: 20px 0px;
+    font-size: 14px;
+}
+
+.faq-inner:hover .hidden-faq {
+    display: block;
+}
+
+.faq-inner:hover .fa-solid {
+    transform: rotate(180deg);
 }
 
 /* Fine FAQ */
