@@ -12,11 +12,16 @@ body {
 
 .navigation-bar {
     height: 80px;
+    background-color: white;
+    width: 100%;
 }
 
 .navigation-bar {
     display: flex;
     justify-content: space-between;
+
+    position: fixed;
+    z-index: 1;
 }
 
 .navigation-left {
@@ -62,6 +67,7 @@ body {
 
 .jumbotron {
     background-color: #b4d0e7;
+    padding-top: 140px;
 }
 
 .jumbo-container {
