@@ -166,29 +166,73 @@ section .business-titles {
     margin-bottom: 70px;
 }
 
+/* Business plan */
+
+/* Stilizzazione radio */
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark-span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.radio-container:hover input~.checkmark-span {
+    background-color: #ccc;
+}
+
+.radio-container input:checked~.checkmark-span {
+    background-color: #468dff;
+}
+
+.checkmark-span:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-container input:checked~.checkmark-span:after {
+    display: block;
+}
+
+.radio-container .checkmark-span:after {
+    top: 4px;
+    left: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Fine stilizzazione radio */
+
 .radio-selector {
     display: flex;
+    gap: 30px;
     align-items: center;
 }
-
-.button1 {
-    margin-right: 35px;
-}
-
-.button1,
-.button2 {
-    font-size: 14px;
-}
-
-.radio-selector input {
-    margin-right: 5px;
-}
-
-section label {
-    font-size: 14px;
-}
-
-/* Business plan */
 
 .payment-plan {
     display: flex;
